@@ -1,0 +1,309 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.maincontainer{
+
+  width: 100%;
+}
+
+.container1 {
+  height: 100vh;
+  width: 100%;
+  
+}
+
+
+
+.video-bg {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute; 
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+.heading {
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: rgba(244, 244, 244, 0.9);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.button1{
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  padding: 5px 10px;
+  background: linear-gradient(to right, #00f, #f0f);
+  opacity: 0.8;
+  
+}
+.button1:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}
+
+h1 {
+  color: white;
+}
+
+.bf {
+  color: aliceblue;
+  font-size: 50px;
+  font-weight: bold;
+   font-size: 60px;
+   font-weight: bold;
+    
+    }
+
+.container1 {
+   position: relative;
+  height: 100vh;
+  width: 100%;
+  
+}
+
+h5{
+  font-family: 'Montserrat',;
+  font-weight: bold;
+ 
+}
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.head{
+       text-align: center;
+
+}
+
+.container2 {
+  padding: 20px;
+
+}
+
+
+.pets-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+
+.pet {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.dog1 img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.dog1-text {
+  text-align: center;
+  margin-top: 10px;
+}
+
+@media(min-width: 768px) {
+  .pet {
+    width: 48%; 
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .dog1{
+       width: 48%;
+    
+  }
+
+  .dog1-text {
+    width: 48%;
+    text-align: center;
+  }
+}
+
+  .dog1{
+    width: 100%;
+  }
+
+  .dog1-text{
+    width: 100%;
+    text-align: center;
+  }
+ .head{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ .pet:hover{
+    border: 3px solid #ccc;
+  
+ }
+ button:hover{
+     border-radius: 10px;
+     
+
+ }
+
+.container3 {
+  background-color: #fff0f6;
+  padding: 60px 20px;
+  text-align: center;
+  border-top: 5px solid rgb(196, 40, 244);
+}
+
+.container3 h2 {
+  font-size: 32px;
+  color: #6a1b9a;
+  margin-bottom: 40px;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.step {
+  background-color: white;
+  border-radius: 12px;
+  padding: 30px 20px;
+  max-width: 280px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.step h3 {
+  font-size: 22px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.step p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive stacking on smaller screens */
+@media (max-width: 768px) {
+  .steps {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.container4 {
+  background-color: #fef6f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.container4 h2 {
+  font-size: 32px;
+  color: #c62890;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 40px;
+}
+
+.stories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.story-card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.story-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.story-card:hover {
+  transform: scale(1.02);
+}
+
+.story-card .overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+  font-style: italic;
+  font-size: 14px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.story-card:hover .overlay {
+  opacity: 1;
+}
+
+.see-more-btn {
+  background-color: #c62890;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.see-more-btn:hover {
+  background-color: #a11e74;
+}
+
+
+button{
+  color: white;
+  border-radius: 10px;
+  border-style: none;
+  padding: 5px 10px;
+  background: linear-gradient(to right, #00f, #f0f);
+  opacity: 0.8;
+  
+}  
