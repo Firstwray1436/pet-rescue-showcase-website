@@ -1,34 +1,47 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 
 .maincontainer{
-
   width: 100%;
 }
-
 .container1 {
-
-  
+ color: black;
   width: 100%;
+  background: linear-gradient(to right,rgba(174, 209, 221, 0.658), rgba(229, 137, 229, 0.502));
   font-family: Georgia, 'Times New Roman', Times, serif;
- 
+    font-size: 20px;
 }
+
+.donation{
+      width: 100%;
+      margin-top: 30px;
+}
+.donation-text{
+    padding: 10px 20px;
+    
+    
+   
+}
+
+h2,p{
+    text-align: center;
+    color: rgb(63, 7, 7);
+}
+    
 button{
   color: white;
   border-style: none;
   padding: 5px 10px;
   background: linear-gradient(to right, #00f, #f0f);
-  opacity: 0.8;
 
   
-}  
 
-.container{
-    margin-top: 10px;
-    background-color: rgb(228, 253, 255);
 }
-
-
+button:hover{
+    border: 2px solid black;  
+      border-radius: 10px;
+}
