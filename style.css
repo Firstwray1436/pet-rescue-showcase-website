@@ -38,7 +38,7 @@
   transform: translateX(-50%);
   text-align: center;
   color: rgba(244, 244, 244, 0.9);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
 
 .button1{
@@ -85,8 +85,6 @@ h5{
 
 .head{
        text-align: center;
-       
-
 }
 
 .container2 {
