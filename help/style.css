@@ -27,7 +27,7 @@
    
 }
 
-h2,p{
+h2,h3{
     text-align: center;
     color: rgb(63, 7, 7);
     font-weight: bold;
@@ -46,3 +46,7 @@ button:hover{
     border: 2px solid black;  
       border-radius: 10px;
 }
+
+P{text-align: center;
+  font-size: 18px;
+  font-style: italic;}
